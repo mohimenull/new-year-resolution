@@ -7,7 +7,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     padding: 216px 230px 364px 845px;
-   
 }
 .header-title {
     font-weight: 700;
@@ -69,11 +68,43 @@ ul li:before {
 .failure-description {
     margin-bottom: 16px;
 }
-
+/*styling reasons of failue section*/
+.reasons-container {
+    background-image: url("images/failurenew.jpg");
+    background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+        url("images/failurenew.jpg");
+    position: relative;
+    width: auto;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 8px;
+}
+.reasons-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    width: 459px;
+    height: 94px;
+    padding-left: 64px;
+    padding-top: 130px;
+    margin-bottom: 84px;
+}
+.reason {
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 64px;
+}
+/*styling plans section*/
 .icons {
     width: 92.96px;
     height: 92.96px;
     margin-bottom: 24px;
+    margin-left: 10px;
 }
 .plans-list {
     display: flex;
@@ -100,42 +131,43 @@ ul li:before {
     margin-bottom: 130px;
 }
 
-/*motivation section*/
+/*styling motivation section*/
 .motivation {
     position: relative;
-  background-image: url("images/watch.png");
-  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("images/watch.png");;
-  width: auto;
-height: 350px;
-border-radius: 8px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 130px;
-  margin-left: 230px;
-  margin-right: 230px;
+    background-image: url("images/watch.png");
+    background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+        url("images/watch.png");
+    width: auto;
+    height: 350px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 .motivation-title {
     font-weight: 700;
-font-size: 40px;
-color: #FFFFFF;
-width: 459px;
-height: 94px;
-padding-left: 64px;
-padding-top: 59px;
-margin-bottom: 24px;
-
+    font-size: 40px;
+    color: #ffffff;
+    width: 459px;
+    height: 94px;
+    padding-left: 64px;
+    padding-top: 59px;
+    margin-bottom: 24px;
 }
 .button-secondary {
     width: 160px;
-height: 64px;
-background: #FFFFFF;
-border-radius: 5px;
-border: none;
-font-weight: 600;
-font-size: 20px;
-color: #F15B22;
-margin-left: 64px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f15b22;
+    margin-left: 64px;
 }
+
 /*styling contact section*/
 .contact-info {
     display: flex;
@@ -145,53 +177,55 @@ margin-left: 64px;
 }
 .socials {
     margin-left: 230px;
-
 }
 .newsletter {
     width: 325px;
-height: 204px;
+    height: 204px;
     margin-right: 230px;
 }
 .socials-title {
-    color: #F8F8F8;
+    color: #f8f8f8;
     font-weight: 700;
-font-size: 45px;
-margin-top: 130px;
-margin-bottom: 20px;
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 .socials-description {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
     width: 485px;
-height: auto;
-margin-bottom: 20px;
+    height: auto;
+    margin-bottom: 20px;
 }
 .mail {
     margin-bottom: 16px;
 }
-.phone {  
+.phone {
     margin-bottom: 32px;
 }
-.mail, .phone {
-    color: #FFFFFF;
+.mail,
+.phone {
+    color: #ffffff;
     font-size: 16px;
 }
+
+/*styling newsletter section*/
 .newsletter-title {
     font-weight: 600;
-font-size: 25px;
-color: #FFFFFF;
-margin-top: 166px;
-margin-bottom: 31px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 166px;
+    margin-bottom: 31px;
 }
 #mail-button {
     width: 325px;
-height: 64px;
-color: #F3F3F3;
-font-size: 18px;
-border-radius: 8px;
-background-color: #151414;
-border-color:#FFFFFF;
-margin-bottom: 16px;
+    height: 64px;
+    color: #f3f3f3;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #151414;
+    border-color: #ffffff;
+    margin-bottom: 16px;
 }
 #newsletter-button {
     margin-left: 0px;
